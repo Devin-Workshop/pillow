@@ -46,6 +46,10 @@ jobs:
         run: |
           git config --global core.autocrlf input
 
+      - name: Mark workspace as safe for Git
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
       - name: Checkout Pillow
         uses: actions/checkout@v4
         with:
