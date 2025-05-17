@@ -95,6 +95,8 @@ This library provides extensive file format support, an efficient internal repre
 
 The core image library is designed for fast access to data stored in a few basic pixel formats. It should provide a solid foundation for a general image processing tool.
 
+Pillow is compatible with Python versions 3.9 and above.
+
 ## More information
 
 - [Documentation](https://pillow.readthedocs.io/)
